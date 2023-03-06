@@ -2,7 +2,7 @@
 
 <h1 id="toc">ENV - Development Enviroment</h1>
   <p>
-  Ready to use enviroment for developers
+  Multi Platform ready to use enviroment for developers, Support Mac OS, Linux, and Windows using WSL
   </p>
 
 <p align="center">
@@ -46,6 +46,7 @@ In this section is require nix installed in your system, here steps to install:
 | [node](./node)     | `nodejs@v19`, `yarn@1.22`              |
 | [node18](./node18) | `nodejs@v18`, `yarn@1.22`              |
 | [node16](./node16) | `nodejs@v16`, `yarn@1.22`              |
+| [node16](./node14) | `nodejs@v14`, `yarn@1.22`              |
 | [go](./go)         | `go@v1.19`, `gotools`, `golangci-lint` |
 | [python](./python) | `python@v3.12`, `pip@22.3.1`           |
 
