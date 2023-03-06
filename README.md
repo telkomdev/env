@@ -46,7 +46,7 @@ In this section is require nix installed in your system, here steps to install:
 | [node](./node)     | `nodejs@v19`, `yarn@1.22`              |
 | [node18](./node18) | `nodejs@v18`, `yarn@1.22`              |
 | [node16](./node16) | `nodejs@v16`, `yarn@1.22`              |
-| [node16](./node14) | `nodejs@v14`, `yarn@1.22`              |
+| [node14](./node14) | `nodejs@v14`, `yarn@1.22`              |
 | [go](./go)         | `go@v1.19`, `gotools`, `golangci-lint` |
 | [python](./python) | `python@v3.12`, `pip@22.3.1`           |
 
