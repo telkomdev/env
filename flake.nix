@@ -29,6 +29,16 @@
         description = "Nodejs (v16)";
       };
 
+      node14 = {
+        path = ./node14;
+        description = "Nodejs (v14)";
+      };
+
+      python = {
+        path = ./python;
+        description = "Python development environment";
+      };
+
       # react-native = {
       #   path = ./react-native;
       #   description = "React Native development environment";
