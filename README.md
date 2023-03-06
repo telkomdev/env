@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1 id="toc">DEV - Development Enviroment</h1>
+<h1 id="toc">ENV - Development Enviroment</h1>
   <p>
   Ready to use enviroment for developers
   </p>
