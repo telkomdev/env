@@ -29,11 +29,7 @@ graph LR
     E --> F(Ready to Develop)
 ```
 
-<!-- TODO -->
-
 ## Usage
-
-[[Back to the Table of Contents] ↑](#toc)
 
 In this section is require nix installed in your system, here steps to install:
 
@@ -99,8 +95,6 @@ nix flake init -t github:telkomdev/env#<NAME>
 
 ## Contributions
 
-[[Back to the Table of Contents] ↑](#toc)
-
 ### For Code Contributors
 
 - [Learning: Nix flake](https://zero-to-nix.com/concepts/flakes)
@@ -117,5 +111,3 @@ nix flake init -t github:telkomdev/env#<NAME>
 
 - [Nix](https://nixos.org)
 - [dev-templates](https://github.com/the-nix-way/dev-templates)
-
-[[Back to the Table of Contents] ↑](#toc)
