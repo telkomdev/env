@@ -33,7 +33,7 @@ graph LR
 
 In this section is require nix installed in your system, here steps to install:
 
-> you can **SKIP** this section when nix has been installed in your system and go use as [development environment](#as-development-environment), [project development environment](#as-project-development-environment), or [create new project with available template](#as-project-boilerplate).
+> you can **SKIP** this section when nix has been installed in your system and go use as [development environment](#as-development-environment) and [project development environment](#as-project-development-environment).
 
 - Install nix in your system
   - run command: `curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install`
