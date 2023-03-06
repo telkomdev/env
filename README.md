@@ -55,7 +55,7 @@ In this section is require nix installed in your system, here steps to install:
 | [go](./go)         | `go@v1.19`, `gotools`, `golangci-lint` |
 | [python](./python) | `python@v3.12`, `pip@22.3.1`           |
 
-- using as development environment: `nix develop "github:oratakashi/dev?dir=<NAME>"`
+- using as development environment: `nix develop "github:telkomdev/env?dir=<NAME>"`
 
 ### As Development Environment
 
@@ -63,10 +63,10 @@ In this section is require nix installed in your system, here steps to install:
 - and, Run command
 
 ```bash
-nix develop "github:oratakashi/dev?dir=<NAME>"
+nix develop "github:telkomdev/env?dir=<NAME>"
 ```
 
-- example for _**node**_: `nix develop "github:oratakashi/dev?dir=node"` with default shell is [Bash](https://www.gnu.org/software/bash/).
+- example for _**node**_: `nix develop "github:telkomdev/env?dir=node"` with default shell is [Bash](https://www.gnu.org/software/bash/).
   - `nodejs@v18.x` , `yarn@1.22.x`, and `pnpm@7.x` will ready to use in your local $SHELL.
 
 ### As Project Development Environment
@@ -75,26 +75,26 @@ nix develop "github:oratakashi/dev?dir=<NAME>"
 - Select the _development environment_ by `<NAME>` from [templates](#templates).
 
 ```bash
-nix flake init -t github:oratakashi/dev#<NAME>
+nix flake init -t github:telkomdev/env#<NAME>
 ```
 
-- example for _**node**_: `nix flake init -t github:oratakashi/dev#node`
+- example for _**node**_: `nix flake init -t github:telkomdev/env#node`
 - in your project will contains all files from [node](./node).
 
 ### Usefull Command Flags
 
 - `-c <ENV_VAR>`
   - maybe, in your local shell have been use `zsh`, `fish`, `ksh`, `csh`, or `powershell`. example run devshell with your current $SHELL:
-  - `nix develop github:oratakashi/dev?dir=<NAME> -c $SHELL`
+  - `nix develop github:telkomdev/env?dir=<NAME> -c $SHELL`
 - `--refresh`
-  - maybe, in `oratakashi/dev` have been update the repository and you want to stay up to date. so, run development environment with flag `--refresh`.
-  - `nix develop github:oratakashi/dev?dir=<NAME> --refresh` - run devshell with your current $SHELL
+  - maybe, in `telkomdev/env` have been update the repository and you want to stay up to date. so, run development environment with flag `--refresh`.
+  - `nix develop github:telkomdev/env?dir=<NAME> --refresh` - run devshell with your current $SHELL
 
 <!-- TODO
 ### As Project Boilerplate
 * Select availables project templates name in the tables.
-  * run command `nix flake -t github:oratakashi/dev#<NAME>`
-  * example for _**react-native@0.71**_: `nix flake init -t github:oratakashi/dev#rn71`
+  * run command `nix flake -t github:telkomdev/env#<NAME>`
+  * example for _**react-native@0.71**_: `nix flake init -t github:telkomdev/env#rn71`
 -->
 
 ## Contributions
