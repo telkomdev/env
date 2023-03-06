@@ -17,8 +17,6 @@
 
 ## Overview
 
-[[Back to the Table of Contents] ↑](#toc)
-
 ```mermaid
 graph LR
     A[User] --> B
